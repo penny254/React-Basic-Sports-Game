@@ -52,7 +52,7 @@ this.shotSound = new Audio("./assets/Bounces.mp3")
    let shotPercentageDiv 
    if (this.state.shots){
     var shotPercentage =Math.round((this.state.score/this.state.shots))
-    shotPercentage=(
+    shotPercentageDiv=(
       <div>
       <span>Shooting % : </span>{shotPercentage}
       </div>
